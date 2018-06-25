@@ -37,22 +37,25 @@ h2 {
 
 }
 .aboutme {
-    width: 960px;
+    width: 850px;
     height: 500px; 
     border: 1px #777777 ;
-    margin: 50px 100px 0px 150px;
-    padding: 2px;
+    padding: 30px 30px 30px 20px;
+    margin: 25px 20px 100px 145px;
     background-color: #ffffff;
 
 }
-p.normal {
+.normal {
+    border-top:  3px solid #777777;
+    border-radius: 1px;
     overflow: auto;
     font-family: "Arial", "Helvetica Neue", sans serif;
-    color: #777777;
 
 }
 img {
+    padding: 25px;
     float: left;
     overflow: auto;
 
 }
+
