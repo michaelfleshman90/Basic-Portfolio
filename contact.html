@@ -6,35 +6,38 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="main.js"></script>
+    <script src="assets/main.js"></script>
 </head>
 <body>
     <header>
         <div class="myname">Michael Wayne Fleshman Jr.</div>
         <div class="topnav">
-            <button class="button1" type="button" onclick="aboutbutton()">About</button> 
-            <button class="button2" type="button" onclick="contactbutton()">Contact</button>
-            <button class="button3" type="button" onclick="portfoliobutton">Portfolio</button>
+            <button class="button1" type="button" onclick="aboutbutton();">About</button> 
+            <button class="button2" type="button" onclick="contactbutton();">Contact</button>
+            <button class="button3" type="button" onclick="portfoliobutton();">Portfolio</button>
         </div>
     </header>
     <div class="pagebackground">
         <div class="contactpage">
             <h2>Contact</h2>
             <form>
-                First Name:<br>
-                <input type="text" name="firstname" size="100">
+                Government Name:<br>
+                <input type="text" name="governmentname" size="100">
                 <br>
-                Last Name:<br>
-                <input type="text" name="lastname" size="100">
+                E-mail:<br>
+                <input type="email" name="email" size="100">
                 <br>
                 Message:<br>
-                <input name="message" style="height:400px; width:400px;">
+                <input name="message" style="height:300px; width:728px;">
                 <br>
-                Submit:<br>
+                <br>
                 <input type="submit" value="Submit">
                 <br><br>
             </form>
         </div>
     </div>
+    <footer class="footer">
+            <img src="assets/images/copyrightimage.png" alt="copyright" class="copyright">
+        </footer>
 </body>
 </html>
