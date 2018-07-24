@@ -8,10 +8,10 @@ function portfoliobutton() {
     window.location.href="portfolio.html";
 }
 function portbutton1() {
-    window.location.href="https://www.google.com/";
+    window.location.href="https://michaelfleshman90.github.io/Psychic-Game/";
 }
 function portbutton2() {
-    window.location.href="https://google.com/";
+    window.location.href="https://michaelfleshman90.github.io/unit-4-game/";
 }
 function portbutton3() {
     window.location.href="https://google.com/";
